@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:minWidth="200px"
+    android:minHeight="25px"
+    android:background="@drawable/background">
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/intro"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:shadowColor="#ff00008b"
+        android:textColor="#3ba02e"
+        android:text="Awesome Game-Day Recipes!"
+        android:textSize="24dp"
+        android:gravity="center_horizontal"
+        android:layout_height="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/intro2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:shadowColor="#ff00008b"
+        android:textColor="#3ba02e"
+        android:text="Select from one of the delicious dishes below."
+        android:textSize="16dp"
+        android:gravity="center_horizontal" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spnRecipe"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="#3ba02e"
+        android:popupBackground="#3ba02e"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/btnGetRecipe"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="Get Recipe Details"
+        android:height="25dp"
+        android:background="#3ba02e"
+        android:textColorHint="#0067ac" />
 </LinearLayout>

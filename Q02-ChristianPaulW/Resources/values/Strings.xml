@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">Q02-ChristianPaulW</string>
+  <string name="app_name">Awesome Game-Day Recipes</string>
+  <string-array name="recipe_list">
+    <item>Pick a Recipe</item>
+    <item>Seven-Layer Bean Dip</item>
+    <item>Slow-Cooker Pulled Pork Sandwiches</item>
+    <item>Scrumptious Apple Pie</item>
+  </string-array>
 </resources>

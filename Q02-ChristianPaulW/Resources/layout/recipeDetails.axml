@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/dishTitle"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:shadowColor="#ff00008b"
+        android:textColor="#3ba02e"
+        android:text="Dish Title Here"
+        android:textSize="24dp"
+        android:gravity="center_horizontal"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/imgDish"
+        android:src="@drawable/applepie" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/recipeDetails"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:shadowColor="#ff00008b"
+        android:textColor="#3ba02e"
+        android:text="Recipe Here"
+        android:textSize="12dp"
+        android:maxLines="10"
+        android:scrollbars="vertical" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/likeVote"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:shadowColor="#ff00008b"
+        android:textColor="#fff"
+        android:background="#4D3ba02e"
+        android:text="Like this receipe? \nVote below to show your love!"
+        android:gravity="center_horizontal"
+        android:textSize="18dp"
+        android:maxLines="2"
+        android:scrollbars="vertical" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/btnVoteSMS"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="Vote via Text"
+        android:height="15dp"
+        android:background="#3ba02e"
+        android:textColorHint="#0067ac" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/btnVoteCall"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="Vote via Call"
+        android:height="15dp"
+        android:background="#3ba02e"
+        android:textColorHint="#0067ac" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/btnVoteEmail"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="Vote via Email"
+        android:height="15dp"
+        android:background="#3ba02e"
+        android:textColorHint="#0067ac" />
+</LinearLayout>
